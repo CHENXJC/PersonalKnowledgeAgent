@@ -6,15 +6,17 @@ PersonalKnowledgeAgent
 
 ## Public Release Readiness
 
-- Public release readiness status: GitHub public showcase prep completed locally
-- Current checkpoint: `PKB-009-GITHUB-PUBLIC-SHOWCASE-PREP`
+- Public release readiness status: GitHub public showcase published
+- Current checkpoint: `PKB-010-GITHUB-PUBLISH`
 - Public release mode: Demo/sanitized notes only
 - Demo knowledge base path: `demo_knowledge_base/`
 - Demo Mode status: Added to Streamlit dashboard and enabled by default
 - Final release check status: Completed with 0 blocking failures
 - Screenshot status: 9 screenshots captured using Demo Mode
 - Real private knowledge base content is excluded from the public showcase by default.
-- GitHub publication status: pending explicit user approval.
+- GitHub publication status: published.
+- GitHub repository: `https://github.com/CHENXJC/PersonalKnowledgeAgent`
+- Published branch: `main`
 
 ## Public Positioning
 
@@ -137,10 +139,10 @@ Current PKB-007 release check result: 32 non-blocking warnings and 0 failures.
 
 ## GitHub Publish Decision
 
-GitHub publish is pending user approval. PKB-009 does not initialize Git, create
-a remote, or push code.
+GitHub publish is complete. PKB-010 published the public showcase repository to
+`https://github.com/CHENXJC/PersonalKnowledgeAgent`.
 
 ## Publication Boundary
 
-PKB-009 does not initialize Git, create remotes, push code, connect OpenAI, add
-RAG, scan other local directories, or publish private personal knowledge files.
+PKB-010 does not connect OpenAI, add RAG, scan other local directories, force
+push, or publish private personal knowledge files.

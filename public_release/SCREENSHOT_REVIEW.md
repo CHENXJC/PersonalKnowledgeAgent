@@ -2,7 +2,7 @@
 
 ## Current Checkpoint
 
-`PKB-009-GITHUB-PUBLIC-SHOWCASE-PREP`
+`PKB-010-GITHUB-PUBLISH`
 
 ## Capture Summary
 
@@ -11,7 +11,7 @@
 - Required data source: `demo_knowledge_base/`.
 - Local Private Mode used for screenshots: No.
 - Screenshots faked or mocked: No.
-- GitHub publication performed: No.
+- GitHub publication performed: Yes.
 - Real `knowledge_base/` notes included in public showcase by default: No.
 
 ## Screenshot Review Table
@@ -50,7 +50,7 @@ Before any public GitHub release:
 - [ ] Confirm `python tools/check_demo_mode.py` returns PASS.
 - [ ] Confirm `python tools/public_release_check.py` returns 0 failures.
 - [ ] Confirm real `knowledge_base/` notes remain excluded by default.
-- [ ] Get explicit user approval before `git init`, adding a remote, or pushing.
+- [x] GitHub publication was explicitly approved for PKB-010.
 
 ## Recommendation
 

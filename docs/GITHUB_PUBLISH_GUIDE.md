@@ -1,8 +1,8 @@
 # GitHub Publish Guide
 
-This guide is for a future GitHub Public Showcase release. It is documentation
-only. Do not execute these commands unless the user explicitly approves the
-publish step.
+This guide documents the GitHub Public Showcase release process. Do not execute
+future publish or update commands unless the user explicitly approves the
+publish/update step.
 
 ## Pre-Publish Manual Confirmation
 
@@ -37,9 +37,10 @@ Expected gate:
 - Demo Mode check returns PASS.
 - Public release check has 0 failures.
 
-## Publish Commands For Future Approval Only
+## Publish Commands
 
-Do not run these commands until the user explicitly approves GitHub publishing:
+These commands were approved for PKB-010. For future projects or republishing,
+do not run them until the user explicitly approves GitHub publishing:
 
 ```powershell
 git init
@@ -55,5 +56,6 @@ create an empty public repository manually before adding a remote.
 
 ## Current Boundary
 
-PKB-009 is local publish preparation only. It does not initialize Git, add a
-remote, push code, connect cloud services, or add RAG/OpenAI functionality.
+PKB-010 published the public showcase repository. It did not connect cloud
+services beyond GitHub publishing, add RAG/OpenAI functionality, include real
+`knowledge_base/` notes, or publish generated `outputs/` reports.

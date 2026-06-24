@@ -230,7 +230,8 @@ Screenshot safety status:
 - Demo Mode is the default public showcase source.
 - Screenshots use demo/sanitized Markdown notes only.
 - Local Private Mode is not used in the screenshot set.
-- GitHub publication has not been performed yet.
+- GitHub Public Showcase has been published at
+  `https://github.com/CHENXJC/PersonalKnowledgeAgent`.
 
 ![Overview Command Center](portfolio/showcase_screenshots/01_overview_command_center.png)
 
@@ -273,6 +274,27 @@ GitHub-ready local artifacts:
 - Showcase screenshots: `portfolio/showcase_screenshots/`
 - Public release checklist and review docs: `public_release/`
 - Safety and capture guides: `docs/`
+
+## PKB-010 GitHub Public Showcase
+
+PKB-010 publishes the project as a GitHub Public Showcase repository.
+
+Repository:
+
+```text
+https://github.com/CHENXJC/PersonalKnowledgeAgent
+```
+
+Published boundary:
+
+- Public branch: `main`
+- Public demo source: `demo_knowledge_base/`
+- Real private `knowledge_base/` notes: excluded by default
+- Public knowledge base placeholder: `knowledge_base/README.md` and
+  `knowledge_base/.gitkeep`
+- Generated reports under `outputs/`: excluded except `outputs/.gitkeep`
+- Screenshots: included under `portfolio/showcase_screenshots/`
+- OpenAI/RAG integration: not included yet
 
 ## Project Structure
 
@@ -370,7 +392,8 @@ streamlit run app.py --server.port 8521
 - `PKB-007`: Final public release check before any GitHub publishing decision.
 - `PKB-008`: Screenshot capture using Demo Mode.
 - `PKB-009`: GitHub public showcase prep with private `knowledge_base/` excluded by default.
-- `PKB-010`: GitHub publish only after explicit approval.
+- `PKB-010`: GitHub Public Showcase published.
+- `PKB-011`: GitHub About/topics setup or GitHub Profile Pin decision.
 
 ## Disclaimer
 

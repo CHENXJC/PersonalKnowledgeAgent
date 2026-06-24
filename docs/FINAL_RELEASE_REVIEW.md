@@ -6,7 +6,7 @@ PersonalKnowledgeAgent
 
 ## Current Checkpoint
 
-PKB-009-GITHUB-PUBLIC-SHOWCASE-PREP
+PKB-010-GITHUB-PUBLISH
 
 ## Release Mode
 
@@ -68,3 +68,7 @@ manual full-size screenshot review and GitHub public showcase approval.
 
 PKB-009 result: local GitHub public showcase prep is complete. The publish
 decision is still pending user approval.
+
+PKB-010 result: GitHub Public Showcase is published at
+`https://github.com/CHENXJC/PersonalKnowledgeAgent`. Real `knowledge_base/`
+notes remain excluded by default.
