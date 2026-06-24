@@ -1,0 +1,43 @@
+{
+  "knowledge_base_path": "knowledge_base",
+  "allowed_extensions": [".md", ".txt"],
+  "ignored_dirs": [
+    "outputs",
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "node_modules",
+    ".pytest_cache"
+  ],
+  "ignored_file_patterns": [
+    ".env",
+    "*.env",
+    "*.key",
+    "*.pem",
+    "*.p12",
+    "*.pfx",
+    "*.sqlite",
+    "*.db",
+    "*.log",
+    "*.csv",
+    "*.xlsx",
+    "*.pdf",
+    "*.png",
+    "*.jpg",
+    "*.jpeg",
+    "*.gif",
+    "*.webp",
+    "*.mp4",
+    "*.mov",
+    "*.avi",
+    "*.mkv"
+  ],
+  "project_stage": "PKB-009-GITHUB-PUBLIC-SHOWCASE-PREP",
+  "local_first": true,
+  "enable_llm": false,
+  "demo_knowledge_base_path": "demo_knowledge_base",
+  "default_knowledge_source_mode": "demo",
+  "public_showcase_ready": false,
+  "public_release_mode": "demo_only"
+}
