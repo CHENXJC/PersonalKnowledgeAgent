@@ -4,6 +4,13 @@ PersonalKnowledgeAgent is a local-first, Markdown-first personal knowledge base 
 
 中文定位：个人知识库 Agent / 个人 AI 知识中台。
 
+## Current Public Showcase Status
+
+- Status: completed
+- GitHub Profile Pin: not pinned for now
+- Public version uses `demo_knowledge_base/` only for demo content
+- Real private `knowledge_base/` content is excluded from the public showcase
+
 ## Why This Project Exists
 
 This project is designed for a business and Marketing student building an AI Agent, AI Skill, Vibecoding, and GitHub portfolio system. The goal is not to build a complex RAG system in the first stages. The goal is to create a safe, structured, searchable local knowledge base that can gradually become the foundation for future AI workflow tools.
@@ -394,6 +401,7 @@ streamlit run app.py --server.port 8521
 - `PKB-009`: GitHub public showcase prep with private `knowledge_base/` excluded by default.
 - `PKB-010`: GitHub Public Showcase published.
 - `PKB-011`: GitHub About/topics setup or GitHub Profile Pin decision.
+- `PKB-012`: Showcase complete without profile pin; project paused.
 
 ## Disclaimer
 
