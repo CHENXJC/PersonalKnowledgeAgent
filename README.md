@@ -55,6 +55,10 @@ Why only sanitized summaries:
 
 PersonalKnowledgeAgent is designed to become the bottom knowledge layer for AgentHubControlCenter. A future stage can expose sanitized project summaries, project status, capability clusters, and report inventory data to the AgentHub dashboard.
 
+This project is part of my local-first AI Agent portfolio and can be managed through [AgentHubControlCenter](https://github.com/CHENXJC/AgentHubControlCenter), the central command center for agent manifests, safe actions, useful signals, workflow simulations, connector readiness, approval gates, and public-safe reporting.
+
+PersonalKnowledgeAgent is registered as a knowledge management module in AgentHubControlCenter.
+
 The intended direction is:
 
 ```text
